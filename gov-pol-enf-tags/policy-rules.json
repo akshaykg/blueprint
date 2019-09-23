@@ -1,0 +1,62 @@
+{
+    "Name": {
+        "type": "String",
+        "metadata": {
+            "description": "Application ID for which the resource belongs to"
+        }
+    },
+    "Department": {
+        "type": "String",
+        "metadata": {
+            "description": "Boolian value to notify zero error code deployment"
+        }
+    },
+    "Billing": {
+        "type": "String",
+        "metadata": {
+            "description": "version defination for release"
+        }
+    },
+    "Solution": {
+        "type": "String",
+        "metadata": {
+            "description": "Name of the Ownersfor the resource"
+        }
+    },
+    "Region": {
+        "type": "String",
+        "metadata": {
+            "description": "Name of the environment, such as Prod, Dev, UAT"
+        }
+    },
+    "Application": {
+        "type": "String",
+        "metadata": {
+            "description": "Application ID for which the resource belongs to"
+        }
+    },
+    "Description": {
+        "type": "String",
+        "metadata": {
+            "description": "Boolian value to notify zero error code deployment"
+        }
+    },
+    "Environment": {
+        "type": "String",
+        "metadata": {
+            "description": "version defination for release"
+        }
+    },
+    "Createdby": {
+        "type": "String",
+        "metadata": {
+            "description": "Name of the Ownersfor the resource"
+        }
+    },
+    "Owner": {
+        "type": "String",
+        "metadata": {
+            "description": "Name of the environment, such as Prod, Dev, UAT"
+        }
+    }
+}

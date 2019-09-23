@@ -1,0 +1,141 @@
+{
+    "subscriptionid": {
+        "value": "a011408d-29a5-452e-b6a2-32442ff4cbd0",
+	"_comment": "Set the value of subscription ID"
+        
+    },
+
+    "policygroupname": {
+        "value": "tag-image-nsg-initivative",
+	"_comment": "Set the name for the Initative"
+        
+    },
+
+    "bpname": {
+        "value": "govbp",
+	"_comment": "Set the name for the blue print"
+        
+    },
+
+    "bpversion": {
+        "value": "v3.1",
+	"_comment": "Set the version for the blue published should be like 1.0 or v1.0"
+        
+    },
+
+    "bpartifactassignmentname": {
+        "value": "polenftags",
+	"_comment": "Set the name for the blue artifact assignment"
+        
+    },
+    "bpassignmentname": {
+        "value": "govBlueprintAssignment",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "storagescrgname": {
+        "value": "govstoragescrg",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "storagescrglocation": {
+        "value": "westus2",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "sqlscrgname": {
+        "value": "govsqlscrg",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "sqlscrglocation": {
+        "value": "westus2",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "storageservicecatalogname": {
+        "value": "govStorageServiceCatalog",
+	"_comment": "Set the name for the storage service catalog"
+        
+    },
+    "sqlservicecatalogname": {
+        "value": "govSqlIaaSServiceCatalog",
+	"_comment": "Set the name for the storage service catalog"
+        
+    },
+    "storagesclocation": {
+        "value": "westus2",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "sqlsclocation": {
+        "value": "westus2",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "scappzipurl": {
+        "value": "",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "scsqlzipurl": {
+        "value": "",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "storagesclocklevel": {
+        "value": "ReadOnly",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "sqlsclocklevel": {
+        "value": "ReadOnly",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "storagescrole": {
+        "value": "owner",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "storagescgroupname": {
+        "value": "test",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "sqlscgroupname": {
+        "value": "test",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "sqlscrole": {
+        "value": "owner",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "storagescdescription": {
+        "value": "Managed Azure Storage Account",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "storagescdisplayname": {
+        "value": "Managed Storage Account",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "sqlscdescription": {
+        "value": "Managed Azure iaas sql vm",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "sqlscdisplayname": {
+        "value": "Managed SQL Account",
+	"_comment": "Set the name for the blue assignment"
+        
+    },
+    "blueprintmanagedidlocation": {
+        "value": "westus",
+	"_comment": "Set the name for the blue assignment"
+        
+    }
+}

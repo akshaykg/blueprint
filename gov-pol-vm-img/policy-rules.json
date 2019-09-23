@@ -1,0 +1,9 @@
+{
+    "imageIds": {
+        "type": "Array",
+        "metadata": {
+            "description": "The list of approved VM images",
+            "displayName": "Approved VM images"
+        }
+    }
+}

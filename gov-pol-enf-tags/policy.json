@@ -1,0 +1,57 @@
+{
+    "if": {
+      "allOf": [
+        {
+          "field": "type",
+          "equals": "Microsoft.Compute/VirtualMachines"
+        },
+        {
+          "anyOf": [
+            {
+              "field": "[concat('tags[', parameters('Name'), ']')]",
+              "exists": "false"
+            },
+            {
+              "field": "[concat('tags[', parameters('Department'), ']')]",
+              "exists": "false"
+            },
+            {
+              "field": "[concat('tags[', parameters('Billing'), ']')]",
+              "exists": "false"
+            },
+            {
+              "field": "[concat('tags[', parameters('Solution'), ']')]",
+              "exists": "false"
+            },
+            {
+              "field": "[concat('tags[', parameters('Region'), ']')]",
+              "exists": "false"
+            },
+            {
+              "field": "[concat('tags[', parameters('Application'), ']')]",
+              "exists": "false"
+            },
+            {
+              "field": "[concat('tags[', parameters('Description'), ']')]",
+              "exists": "false"
+            },
+            {
+              "field": "[concat('tags[', parameters('Environment'), ']')]",
+              "exists": "false"
+            },
+            {
+              "field": "[concat('tags[', parameters('Createdby'), ']')]",
+              "exists": "false"
+            },
+            {
+              "field": "[concat('tags[', parameters('Owner'), ']')]",
+              "exists": "false"
+            }
+          ]
+        }
+      ]
+    },
+    "then": {
+      "effect": "deny"
+    }
+}

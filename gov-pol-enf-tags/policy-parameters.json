@@ -1,0 +1,32 @@
+{
+    "Name": {
+        "value": "Name"
+    },
+    "Department": {
+        "value": "Department"
+    },
+    "Billing": {
+        "value": "Billing"
+    },
+    "Solution": {
+        "value": "Solution"
+    },
+    "Region": {
+        "value": "Region"
+    },
+    "Application": {
+        "value": "Application"
+    },
+    "Description": {
+        "value": "Description"
+    },
+    "Environment": {
+        "value": "Environment"
+    },
+    "Createdby": {
+        "value": "Createdby"
+    },
+    "Owner": {
+        "value": "Owner"
+    }
+}

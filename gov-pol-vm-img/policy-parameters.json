@@ -1,0 +1,25 @@
+{
+    "imageIds": {
+        "value": [
+			 "/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/14393.3025.1907191810"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/14393.3025.20190604"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/14393.3085.1907121547"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/14393.3144.1908092220"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/14393.3204.1909070001"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20180613"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20180815"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20180912"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20181010"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20181122"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20181218"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20190115"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20190214"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20190315"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20190416"
+			,"/Subscriptions/subid/Providers/Microsoft.Compute/Locations/SouthIndia/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/2016.127.20190603"
+
+		 ]
+    }
+}
+
+

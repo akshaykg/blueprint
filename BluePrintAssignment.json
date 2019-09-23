@@ -1,0 +1,64 @@
+{
+    "properties": {
+      "blueprintId":"<<bp-id>>",
+      "displayName": "tag-image-nsg-govbp",
+      "resourceGroups": {
+              "storageRG": {
+          "Name":"<<sc-storage-rg>>",
+              "location": "<<sc-storage-location>>"
+              },
+          "ResourceGroup": {
+          "Name":"<<sc-sql-rg>>",
+              "location": "<<sc-sqlrg-location>>"
+          }
+          },
+      "parameters": {
+      "gov-storage-catalog_name": {
+                  "value":"<<sc-name>>"
+              },
+      "gov-storage-catalog_location": {
+                  "value":"<<sc-location>>"
+              },
+      "gov-storage-catalog_lockLevel": {
+                  "value":"<<sc-locklevel>>"
+              },
+      "gov-storage-catalog_authorizations": {
+                  "value":[<<sc-auth>>]
+              },
+      "gov-storage-catalog_description": {
+                  "value":"<<sc-description>>"
+              },
+      "gov-storage-catalog_displayName": {
+                  "value":"<<sc-displayName>>"
+              },
+      "gov-storage-catalog_packageFileUri": {
+                  "value":"<<sc-uri>>"
+              },
+      "gov-iaas-sql_name": {
+                "value":"<<sc-sql-name>>"
+            },
+     "gov-iaas-sql_location": {
+                "value":"<<sc-sql-location>>"
+            },
+     "gov-iaas-sql_lockLevel": {
+                "value":"<<sc-sql-locklevel>>"
+            },
+     "gov-iaas-sql_authorizations": {
+                "value":[<<sc-sql-auth>>]
+            },
+     "gov-iaas-sql_description": {
+                "value":"<<sc-sql-description>>"
+            },
+     "gov-iaas-sql_displayName": {
+                "value":"<<sc-sql-displayName>>"
+            },
+     "gov-iaas-sql_packageFileUri": {
+                "value":"<<sc-sql-uri>>"
+            }
+      }
+    },
+      "identity": {
+          "type": "systemAssigned"
+      },
+      "location": "<<managedid-location>>"
+  }

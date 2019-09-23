@@ -1,0 +1,149 @@
+{
+  "properties": {
+    "targetScope": "subscription",
+    "parameters": {
+      "gov-storage-catalog_name": {
+        "type": "string",
+        "metadata": {
+          "displayName": "name (gov-storage-catalog)",
+          "description": "Provide a name for the managed application."
+        },
+        "defaultValue": "ManagedStorageAccount",
+        "allowedValues": []
+      },
+      "gov-storage-catalog_location": {
+        "type": "string",
+        "metadata": {
+          "displayName": "location (gov-storage-catalog)",
+          "description": "Specify the Azure region to place the application definition."
+        },
+        "allowedValues": []
+      },
+      "gov-storage-catalog_lockLevel": {
+        "type": "string",
+        "metadata": {
+          "displayName": "lockLevel (gov-storage-catalog)",
+          "description": "Specify the resource lock being used for the managed application"
+        },
+        "defaultValue": "ReadOnly",
+        "allowedValues": [
+          "ReadOnly",
+          "CanNotDelete"
+        ]
+      },
+      "gov-storage-catalog_authorizations": {
+        "type": "array",
+        "metadata": {
+          "displayName": "authorizations (gov-storage-catalog)",
+          "description": "Provide the authorization mapping for the managed application."
+        },
+        "allowedValues": []
+      },
+      "gov-storage-catalog_description": {
+        "type": "string",
+        "metadata": {
+          "displayName": "description (gov-storage-catalog)",
+          "description": "Provide a brief description of the managed application"
+        },
+        "defaultValue": "Managed Azure Storage Account",
+        "allowedValues": []
+      },
+      "gov-storage-catalog_displayName": {
+        "type": "string",
+        "metadata": {
+          "displayName": "displayName (gov-storage-catalog)",
+          "description": "Display name for the managed application"
+        },
+        "defaultValue": "Managed Storage Account",
+        "allowedValues": []
+      },
+      "gov-storage-catalog_packageFileUri": {
+        "type": "string",
+        "metadata": {
+          "displayName": "packageFileUri (gov-storage-catalog)",
+          "description": "Display name for the managed application"
+        },
+        "defaultValue": "Managed Storage Account",
+        "allowedValues": []
+      },
+      "gov-iaas-sql_packageFileUri": {
+        "type": "string",
+        "metadata": {
+          "displayName": "packageFileUri (gov-storage-catalog)",
+          "description": "Display name for the managed application"
+        },
+        "defaultValue": "Managed Storage Account",
+        "allowedValues": []
+      },
+      "gov-iaas-sql_name": {
+        "type": "string",
+        "metadata": {
+          "displayName": "name (gov-iaas-sql)",
+          "description": "Provide a name for the managed application"
+        },
+        "defaultValue": "ManagedSqlIaaS",
+        "allowedValues": []
+      },
+      "gov-iaas-sql_location": {
+        "type": "string",
+        "metadata": {
+          "displayName": "location (gov-iaas-sql)",
+          "description": "Specify the Azure region to place the application definition"
+        },
+        "allowedValues": []
+      },
+      "gov-iaas-sql_lockLevel": {
+        "type": "string",
+        "metadata": {
+          "displayName": "lockLevel (gov-iaas-sql)",
+          "description": "Specify the resource lock being used for the managed application"
+        },
+        "defaultValue": "ReadOnly",
+        "allowedValues": [
+          "ReadOnly",
+          "CanNotDelete"
+        ]
+      },
+      "gov-iaas-sql_authorizations": {
+        "type": "array",
+        "metadata": {
+          "displayName": "authorizations (gov-iaas-sql)",
+          "description": "Provide the authorization mapping for the managed application."
+        },
+        "allowedValues": []
+      },
+      "gov-iaas-sql_description": {
+        "type": "string",
+        "metadata": {
+          "displayName": "description (gov-iaas-sql)",
+          "description": "Provide a brief description of the managed application"
+        },
+        "defaultValue": "Managed SQL IaaS",
+        "allowedValues": []
+      },
+      "gov-iaas-sql_displayName": {
+        "type": "string",
+        "metadata": {
+          "displayName": "displayName (gov-iaas-sql)",
+          "description": "Display name for the managed application"
+        },
+        "defaultValue": "Managed SQL Application",
+        "allowedValues": []
+      }
+    },
+    "resourceGroups": {
+      "storagerg": {
+        "metadata": {
+          "displayName": "storagerg"
+        },
+        "dependsOn": []
+      },
+      "ResourceGroup": {
+        "metadata": {
+          "displayName": "goviaassqlrg"
+        },
+        "dependsOn": []
+      }
+    }
+  }
+}
